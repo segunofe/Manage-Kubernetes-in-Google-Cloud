@@ -323,3 +323,7 @@ kubectl get service <service name> -n namespace
 
 - **Service resource (LoadBalancer)** — the object through which your containerized app sitting in pods can reach the internet.
 - **Deployment Object** — creates, rolls out, replicaSet — ensures desired number of pods (specified in the deployment manifest) are running.
+
+## Recommendation: To understand applicable Kubernetes more, do this Lab on Google Skills: Debug Apps on Google Kubernetes Engine. 
+
+My best lab so far. So applicable to real-world application systems and detailed.  
