@@ -9,6 +9,20 @@ Your tasks will include the following:
 5. Fixing the manifest errors, containerizing your application code and pushing it to Artifact Registry using Docker.
 6. Exposing a service for your application on the cluster and verifying your updates.
 
+Before you continue, remember: 
+
+#### Container Image: A lightweight, standalone, executable package that includes everything needed to run a piece of software (code, runtime, libraries).
+
+#### Pod: The smallest deployable unit in Kubernetes, hosting one or more tightly coupled containers that share the same network and storage.
+
+#### Node: A worker machine (either physical or virtual) in Kubernetes that runs your pods and is managed by the master control plane.
+
+#### Deployment: A declarative blueprint that automates how many copies of a pod should run, handles updates, and ensures self-healing if they fail.
+
+#### Service: An abstract way to expose a logical set of pods as a network service, giving them a single, permanent IP address and load-balancing traffic.
+
+#### Cluster: A complete, interconnected set of nodes grouped together to run your containerized applications as a single unified system
+
 ---
 
 ## Set the Environmental Variable
