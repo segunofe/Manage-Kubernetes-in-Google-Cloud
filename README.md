@@ -145,6 +145,8 @@ resource.type="k8s_pod"
 severity=WARNING
 ```
 
+### Explanation: This query searches your logs for Kubernetes pods that are experiencing warning-level issues or errors. 
+
 Click **Run Query**.
 
 **Create the logs-based metric:**
