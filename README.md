@@ -301,7 +301,7 @@ kubectl expose deployment helloweb \
     --type=LoadBalancer \
     --port=8080 \
     --target-port=8080 \
-    --namespace=gmp-uqkw
+    --namespace=<namespace>
 ```
 
 **6. Navigate to the external load balancer IP address of the service `<name service>`, and you should see the following text returned by the service:**
