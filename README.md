@@ -1,15 +1,15 @@
-# Manage Kubernetes in Google Cloud: Challenge Lab
+# Manage Kubernetes in Google Cloud
 
-Your tasks will include the following:
+I did the following:
 
-1. Creating a GKE cluster based on a set of configurations provided.
-2. Enabling Managed Prometheus on the cluster for metrics monitoring.
-3. Deploying a Kubernetes manifest onto the cluster, and debugging the errors.
-4. Creating a logs-based metric and alerting policy for the errors on the Kubernetes cluster.
-5. Fixing the manifest errors, containerizing your application code and pushing it to Artifact Registry using Docker.
-6. Exposing a service for your application on the cluster and verifying your updates.
+1. Created a GKE cluster based on a set of configurations provided.
+2. Enabled Managed Prometheus on the cluster for metrics monitoring.
+3. Deployed a Kubernetes manifest onto the cluster, and debugged the errors.
+4. Created a logs-based metric and alerting policy for the errors on the Kubernetes cluster.
+5. Fixed the manifest errors, containerized the application code and pushed it to Artifact Registry using Docker.
+6. Exposed a service for the application on the cluster and verified the updates.
 
-Before you continue, remember: 
+Remember the following important Kubernetes concepts:
 
 #### Container Image: A lightweight, standalone, executable package that includes everything needed to run a piece of software (code, runtime, libraries).
 
